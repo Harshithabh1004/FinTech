@@ -1,0 +1,7 @@
+{
+  "name": "FinTech-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
