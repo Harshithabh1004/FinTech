@@ -1,0 +1,45 @@
+.center-title {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 100%; /* Ensures full width for consistency */
+  }
+  
+  ion-title {
+    font-size: 20px; /* Consistent size */
+    font-weight: bold;
+  }
+  .profile-header {
+    text-align: center;
+    padding: 20px;
+  }
+  .avatar {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+  }
+  .profile-content h2 {
+    font-size: 18px;
+    font-weight: bold;
+    
+  }
+  
+  .profile-content p {
+    font-weight: bold;
+    margin: 8px 0;
+  }
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+  }
+  .about-content {
+    flex: 1;
+    
+  }
+  .subtext {
+    font-size: 14px;
+    color: gray;
+  }
+  

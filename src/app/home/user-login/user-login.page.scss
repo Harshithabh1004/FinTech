@@ -1,0 +1,40 @@
+ion-content {
+    --background:bisque;
+  }
+#bg {
+    // height: 50%;
+    // width: 500px;
+    // background: var(--ion-color-dark) url('../../../assets/imgs/leaves.jpg') no-repeat center center/cover;
+    border-radius: 0 0 45% 45%;
+    margin-left: -21w;
+    position: relative;
+    margin-top:40px;
+    margin-bottom: 10px;
+    
+}
+ion-fab {
+    ion-icon {
+        font-size: 2.5rem;
+    }
+}
+
+ion-list {
+    margin-top: 30vh;
+    // background-color: bisque;
+    background-color: burlywood;
+    justify-content: center;
+    ion-list-header {
+        font-weight: 1000;
+        font-size: 1.5rem;
+    }
+    ion-item::part(native) {
+        background-color: blanchedalmond;
+        border-radius: 20px;
+        color: black;
+      }
+    p {
+        font-size: 0.8rem;
+        padding-left: 5vw;
+    }
+}
+

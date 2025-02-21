@@ -1,27 +1,47 @@
-#container {
-  text-align: center;
-
+ion-header {
+  --background: transparent !important;
+  --ion-toolbar-background: transparent !important;
+  --border-color: transparent !important;
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  width: 100%;
+  z-index: 10;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+
+ion-content {
+  --background:rgb(32, 144, 122);
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+ion-list {
+  transform: translateY(25vh);
+  background: transparent;
+  ion-list-header {
+    margin-bottom: 15vh;
+    letter-spacing: 3px;
+    ion-label {
+      font-weight: bold;
+      font-size: 3rem;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+  }
+  ion-button {
+    font-weight: bold;
+    text-transform: none;
+    margin: 5vh;
+    background-color: sandybrown;
+    border-radius: 20px;
+  }
+  p {
+    font-size: 0.9rem;
+  }
 }
-
-#container a {
-  text-decoration: none;
+.logo {
+  margin-top: 30%;
+  max-width: 50%; /* Adjust size */
+  max-height: 50vh; /* Fit screen */
+  object-fit: contain;
+  opacity: 50%; /* Slight transparency for blending */
+// filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.3)); /* Soft shadow */
+// animation: logoBounce 1.5s ease-in-out infinite alternate;
+border-radius: 50%;
 }

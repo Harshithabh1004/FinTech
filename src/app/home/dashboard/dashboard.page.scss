@@ -1,0 +1,214 @@
+.promo-card {
+  padding: 16px;
+  background-color:lightgray;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.promo-content h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.promo-content p {
+  color: #666;
+  margin: 8px 0;
+}
+
+.promo-card-containers {
+  padding: 16px;
+}
+.promo-card-containers h2{
+  font-size: medium;
+  
+}
+
+.promo-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.promo-cards {
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.earn-section p {
+  font-size: 16px;
+  font-weight: bold;
+  
+  margin: 16px 0;
+}
+
+.promo-card-containers {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 12px;
+
+}
+
+.promo-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.promo-cards {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.earn-spend {
+  width: 45%;
+  background: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  /* Make height same as right column */
+  height: 390px;
+}
+
+.promo-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.promo-cards.cashback,
+.promo-cards.zero-balance,
+.promo-cards.global-debit-card {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.sub-texts{
+  font-size: 20px;
+  color: #666;
+  margin-top: 10px;
+}
+
+
+.cashback h2{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.zero-balance h2{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.global-debit-cards h2{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.company-card, .funds-card {
+  position: relative;
+  padding: 20px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 90vw;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.card-content h2, .funds-content h2 {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.sub-text {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+ion-button {
+  align-self: flex-start;
+  width: auto;
+  text-transform: none !important;
+}
+
+
+
+.custom-icon {
+  width: 50px;
+  height: 50px;
+}
+.button-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  --background:white;
+  --border-radius:50%;
+}
+
+.icon-img {
+  width: 40px; /* Adjust size as needed */
+  height: 40px;
+  object-fit: contain;
+}
+
+.button-text {
+  margin-top: 5px;
+  font-size: 14px;
+}
+.details{
+  margin-top: 50px;
+  opacity: 30%;
+  font-size: large;
+  color: lightgray;
+
+}
+.details p{
+  gap:10px;
+}
+.details h6{
+  font-size: 50px;
+}

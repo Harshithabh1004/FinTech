@@ -1,0 +1,43 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button routerLink="/home/dashboard">
+      <ion-icon name="chevron-back-sharp"></ion-icon>
+    </ion-button>
+    </ion-buttons>
+    <ion-title class="center-title">Explore</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">explore</ion-title>
+    </ion-toolbar>
+  </ion-header>
+</ion-content>
+<ion-footer>
+  
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="home" routerLink="/home/dashboard">
+      <ion-icon name="home-sharp"></ion-icon>        
+      Home
+    </ion-tab-button>
+    <ion-tab-button tab="money" routerLink="/home/money">
+      <ion-icon name="cash-sharp"></ion-icon>
+      Money
+    </ion-tab-button>
+    <ion-tab-button tab="banking" routerLink="/home/banking">
+      <ion-icon name="card-sharp"></ion-icon>
+      Banking
+    </ion-tab-button>
+    <ion-tab-button tab="invest" routerLink="/home/invest">
+      <ion-icon name="trending-up-sharp"></ion-icon>        Invest
+    </ion-tab-button>
+    <ion-tab-button tab="explore" routerLink="/home/explore">
+      <ion-icon name="globe-sharp"></ion-icon>
+      Explore
+    </ion-tab-button>
+  </ion-tab-bar>
+
+</ion-footer>

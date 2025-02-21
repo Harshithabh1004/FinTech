@@ -1,0 +1,149 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="end" >
+      <ion-button routerLink="/home/notification">
+        <ion-icon name="notifications-circle-sharp"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons>
+      <ion-button routerLink="/home/userprofile">  
+        <ion-label>HB</ion-label>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+  <div class="promo-card-container">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="promo-card federal-bank">
+            <div class="promo-content">
+              <h2>Federal Bank Savings A/C</h2>
+              <p>Get 2% cashback on UPI & Debit Card spends.</p>
+              <ion-button color="primary" routerLink="/home/banking">Open Saving Account</ion-button>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="promo-card global-debit-card">
+            <div class="promo-content">
+              <h2>Global Debit Card</h2>
+              <p>Visa Platform - Accepted Worldwide</p>
+              <ion-icon name="card-outline" class="card-icon bottom-right"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="earn-section">
+    <p>Earn up to ₹1000/month</p>
+  </div>
+  <div class="promo-card-containers">
+    <div class="promo-main">
+      <!-- Left Side: Earn as You Spend Saving Account -->
+      <div class="promo-cards earn-spend">
+        <div class="promo-content">
+          <h2>Earn as You Spend</h2>
+          <p class="sub-texts">Saving Account</p>
+          <ion-button color="primary" routerLink="/home/banking">Get it now</ion-button>
+        </div>
+      </div>
+      
+      <!-- Right Side: Three Cards Stacked -->
+      <div class="promo-right">
+        <div class="promo-cards cashback" routerLink="/home/banking">
+          <div class="promo-contents">
+            <h2>Get Cashback</h2>
+            <p class="sub-texts">2% on spends</p>
+          </div>
+        </div>
+        <div class="promo-cards zero-balance" routerLink="/home/banking">
+          <div class="promo-contents">
+            <h2>Saving Account</h2>
+            <p class="sub-texts">Zero Balance</p>
+           
+          </div>
+        </div>
+        <div class="promo-cards global-debit-cards" routerLink="/home/banking">
+          <div class="promo-contents">
+            <h2>Global Debit Card</h2>
+            <p class="sub-texts">Visa Platinum</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="company-card card">
+    <div class="card-content">
+      <h2>Check your company's average monthly salary</h2>
+      <p class="sub-text">Find out where you stand in your company.</p>
+      <ion-button color="success" expand="full" routerLink="/home/company">Check now <ion-icon name="chevron-forward-sharp"></ion-icon></ion-button>
+    </div>
+  </div>
+  
+  <div class="funds-card mutualfund">
+    <div class="funds-content">
+      <h2>Spot errors in your Mutual Funds</h2>
+      <p class="sub-text">Boost your portfolio's growth by fixing key mistakes.</p>
+      <ion-button color="success" expand="full" routerLink="/home/funds">Find out in 2 mins <ion-icon name="chevron-forward-sharp"></ion-icon></ion-button>
+    </div>
+  </div>
+  
+  <div class="button-row">
+    <div class="button-container">
+      <ion-button fill="clear" routerLink="/home/bank-balance" class="icon-button">  
+        <img src="assets/icon/chain.png" class="icon-img">
+      </ion-button>
+      <p class="button-text">All Bank Balance</p>
+    </div>
+  
+    <div class="button-container">
+      <ion-button fill="clear" routerLink="/home/credit-score" class="icon-button">  
+        <img src="assets/icon/creditscore.jpg" class="icon-img">
+      </ion-button>
+      <p class="button-text">Credit Score</p>
+    </div>
+  
+    <div class="button-container">
+      <ion-button fill="clear" routerLink="/home/money" class="icon-button">  
+        <img src="assets/icon/money1.png" class="icon-img">
+      </ion-button>
+      <p class="button-text">Net Worth</p>
+    </div>
+  </div>
+  <div class="details">
+    <h6>Trusted by over 35,00,000 Indians</h6>
+    <p>Your money safely rests with Federal Bank</p>
+  </div>
+    
+</ion-content>
+
+<ion-footer>
+  
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="home" routerLink="/home/dashboard">
+        <ion-icon name="home-sharp"></ion-icon>        
+        Home
+      </ion-tab-button>
+      <ion-tab-button tab="money" routerLink="/home/money">
+        <ion-icon name="cash-sharp"></ion-icon>
+        Money
+      </ion-tab-button>
+      <ion-tab-button tab="banking" routerLink="/home/banking">
+        <ion-icon name="card-sharp"></ion-icon>
+        Banking
+      </ion-tab-button>
+      <ion-tab-button tab="invest" routerLink="/home/invest">
+        <ion-icon name="trending-up-sharp"></ion-icon>        Invest
+      </ion-tab-button>
+      <ion-tab-button tab="explore" routerLink="/home/explore">
+        <ion-icon name="globe-sharp"></ion-icon>
+        Explore
+      </ion-tab-button>
+    </ion-tab-bar>
+  
+</ion-footer>
