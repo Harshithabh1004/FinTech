@@ -76,6 +76,10 @@ export const routes: Routes = [
         path: 'invitefriends',
         loadComponent: () => import('./home/invitefriends/invitefriends.page').then( m => m.InvitefriendsPage)
       },
+      {
+        path: 'stoarge-service',
+        loadComponent: () => import('./home/stoarge-service/stoarge-service.page').then( m => m.StoargeServicePage)
+      },
       
     ],
 },
@@ -88,6 +92,8 @@ export const routes: Routes = [
     path: 'splash-screen',
     loadComponent: () => import('./home/splash-screen/splash-screen.page').then( m => m.SplashScreenPage)
   },
+ 
+
   
   
  
